@@ -1497,7 +1497,8 @@ class TableOfContents { constructor({ from, to }) { this.fromElement = from; thi
                           <b:class cond='data:this.description' name='hasSub'/>
                           <b:tag class='headTtl' expr:name='!data:view.isHomepage ? &quot;a&quot; : &quot;span&quot;'>
                             <b:attr cond='!data:view.isHomepage' expr:value='data:blog.homepageUrl.canonical' name='href'/>
-                            <data:title/>
+                            <!-- <data:title/> -->
+                            MST
                           </b:tag>
                           
                           <!--[ Header Description ]-->
